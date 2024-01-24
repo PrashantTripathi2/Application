@@ -1,0 +1,25 @@
+{
+  "name": "sample-git",
+  "version": "1.0.0",
+  "description": "This My first Node Application that use git to push the code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashant170620/Application.git"
+  },
+  "author": "Prashant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prashant170620/Application/issues"
+  },
+  "homepage": "https://github.com/prashant170620/Application#readme",
+  "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0",
+      "express-session": "^1.17.1"
+  }
+}
