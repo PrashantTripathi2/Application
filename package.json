@@ -17,7 +17,7 @@
     "url": "https://github.com/prashant170620/Application/issues"
   },
   "homepage": "https://github.com/prashant170620/Application#readme",
-  "dependencies": {
+  "dependencies":{
       "express": "^4.17.1",
       "body-parser": "^1.19.0",
       "express-session": "^1.17.1"
