@@ -4,7 +4,7 @@ const fs = require('fs');
 var app = express();
 
 app.get('/api/*',(req,res)=>{
-    res.send('Fron api path'); 
+    res.send('Hello My Name is '); 
 });
 
 // app.listen(3000,()=>{
