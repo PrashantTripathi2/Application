@@ -16,4 +16,6 @@ app.get('/',(req,res)=>{
     res.send('Hello World');
 });
 
-module.exports = app;
+app.listen(3000,()=>{
+    console.log('Server is listening');
+})
