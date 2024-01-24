@@ -1,10 +1,4 @@
 {
-    "version": 2,
-    "routes":[
-      {
-        "src":"/api",
-        "des":"server.js"
-      }
-    ]
+    "version": 2
 } 
   
