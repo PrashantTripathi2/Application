@@ -1,5 +1,5 @@
 const express = require('express');
-const fs = requrie('fs');
+const fs = require('fs');
 
 var app = express();
 
