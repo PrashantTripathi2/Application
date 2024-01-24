@@ -4,14 +4,7 @@ const fs = require('fs');
 var app = express();
 
 app.get('/',(req,res)=>{
-    fs.readFile('public/index.html',(er,da)=>{
-        if(er){
-            res.json(er);
-        }
-        else{
-            res.send(da.toString());
-        }
-    })  
+    res.send('Fron api path'); 
 });
 
 app.listen(3000,()=>{
