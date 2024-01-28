@@ -21,6 +21,6 @@
       "express": "^4.17.1",
       "body-parser": "^1.19.0",
       "express-session": "^1.17.1",
-      "@vercel/edge-config": "^1.0.0"
+      "@vercel/edge-config": ""
   }
 }
