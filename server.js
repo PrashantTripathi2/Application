@@ -9,8 +9,10 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/app',async(req,res)=>{
-    var a = await get("greeting");
-    res.send(`Data from data base ${a}`);  
+    var kv = await get();
+    await kv.set('key','value');
+    var value = await get('key');
+    res.send(`Data from data base ${value}`);  
 })
 
 app.get('*', (req, res) => {
